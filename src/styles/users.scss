@@ -1,0 +1,20 @@
+@import "./custom_color";
+.userTitle {
+  color: darkgray;
+}
+
+.userBtn {
+  border-color: $custom-purple;
+  &:hover {
+    border-color: $custom-purple-darker;
+  }
+  &:focus {
+    border-color: $custom-purple;
+  }
+}
+.contentBtn {
+  color: $custom-purple;
+}
+.userLabel {
+  color: darkgray;
+}

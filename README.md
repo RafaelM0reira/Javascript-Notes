@@ -1,3 +1,15 @@
+## Academic Project: Javascript Notes
+
+this is the front-end part of the project and must be open in the port: 3001
+
+#### In this project I used
+
+- react app
+- javascript
+- bulma
+- sass
+- axios
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

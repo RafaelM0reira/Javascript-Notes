@@ -1,0 +1,19 @@
+@import "./custom_color";
+
+.title {
+  color: white;
+}
+.subtitle {
+  color: white;
+}
+.button {
+  color: white;
+  background-color: transparent;
+  &:hover {
+    color: white;
+  }
+}
+.home {
+  height: 100vh;
+  background-color: $custom-purple;
+}

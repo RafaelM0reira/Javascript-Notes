@@ -1,0 +1,32 @@
+@import "./custom_color";
+
+.notes {
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bm-menu {
+  background-color: white;
+}
+.tNotes {
+  color: black;
+}
+.btnPlus {
+  color: $custom-purple;
+  border-color: $custom-purple;
+  &:hover {
+    border-color: $custom-purple-darker;
+  }
+  &:focus {
+    border-color: $custom-purple-darker;
+  }
+}
+.trashBtn {
+  cursor: pointer;
+}
+.quill {
+  height: calc(100vh - 11vh);
+}
+.table {
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+@import "./custom_color";
+
+.register {
+  background-color: $custom-purple;
+  height: 100vh;
+}
+.registerBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.colorBtn {
+  color: $custom-purple;
+}
+.loginBtn {
+  border-color: $custom-purple;
+  &:hover {
+    border-color: $custom-purple-darker;
+  }
+}

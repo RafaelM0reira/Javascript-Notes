@@ -1,0 +1,57 @@
+@import "./custom_color";
+.headerContainer {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.colorBtn {
+  color: $custom-purple;
+}
+.loginBtn {
+  border-color: $custom-purple;
+  &:hover {
+    border-color: $custom-purple-darker;
+  }
+}
+
+.headerContainerLogged {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  border-bottom: 1px solid black;
+  background-color: $custom-purple;
+}
+.navLogged {
+  background-color: $custom-purple;
+}
+.button:focus {
+  border-color: $custom-purple;
+}
+@media (max-width: 1023px) {
+  .headerContainerLogged {
+    display: flex;
+    justify-content: center;
+  }
+  .navLogged {
+    display: flex;
+    align-items: center;
+  }
+  .btnList {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 511px) {
+  .headerContainerLogged {
+    display: flex;
+    justify-content: center;
+  }
+  .navLogged {
+    display: grid;
+    align-items: center;
+  }
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .btnLogout {
+    margin-right: 1rem;
+  }
+}
