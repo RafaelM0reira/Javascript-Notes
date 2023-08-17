@@ -1,3 +1,8 @@
+<img src="https://i.imgur.com/9H8mUuC.png"/>
+<img src="https://i.imgur.com/hpoqEgl.png"/>
+<img src="https://i.imgur.com/hcJgoom.png"/>
+<img src="https://i.imgur.com/YVqvuzW.png"/>
+<img src="https://i.imgur.com/PfuNOON.png"/>
 ## Academic Project: Javascript Notes
 
 this is the front-end part of the project and must be open in the port: 3001
